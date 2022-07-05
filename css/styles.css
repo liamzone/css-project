@@ -121,6 +121,10 @@ section {
   align-self: flex-end;
 }
 
+.hero-btn:hover {
+  border: 1px solid #fff;
+}
+
 /* Players */
 .players {
   display: grid;
@@ -184,6 +188,12 @@ section {
   align-self: center;
   width: 150px;
   padding: 10px;
+}
+
+.cta-btn:hover {
+  border: 2px solid var(--off-color);
+  background-color: var(--text-light);
+  color: var(--off-color);
 }
 
 /* Footer */
