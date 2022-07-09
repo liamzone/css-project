@@ -25,14 +25,14 @@ footer {
 }
 
 section {
-  margin: 100px 0 100px 0;
+  margin: 100px 0;
 }
 
 /* Page Margins */
 .navbar,
 .hero-section {
   max-width: 960px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 
 .container {
@@ -87,7 +87,7 @@ section {
 .hero-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 100px 0 100px 0;
+  padding: 100px 0;
   column-gap: 20px;
 }
 
@@ -117,7 +117,6 @@ section {
   padding: 10px;
   border: none;
   border-radius: 8px;
-
   align-self: flex-end;
 }
 
@@ -154,7 +153,7 @@ section {
 }
 
 .quote {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 800px;
   font-size: 36px;
   font-weight: 300;
@@ -162,7 +161,7 @@ section {
 }
 
 .quoter {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 800px;
   text-align: right;
 }
@@ -200,5 +199,5 @@ section {
 .footer {
   width: 100%;
   text-align: center;
-  padding: 30px 0 30px 0;
+  padding: 30px 0;
 }
